@@ -1,0 +1,78 @@
+nilai = 50
+
+if nilai >= 90:
+    print("A")
+elif nilai >= 80:
+    print("AB")
+elif nilai >= 70:
+    print("B")
+elif nilai >= 60:
+    print("BC")
+else:
+    print("C") # Added an else case for completeness
+
+
+username = "alya"
+password = "aliaaa"
+login = True
+
+count = 0
+while login:
+  input_username = input("Username:")
+  input_password = input("Password:")
+
+  count = count + 1
+  if input_username == username and input_password == password:
+    print("Login berhasil")
+    break
+  else:
+    print("Login Gagal!, Username atau Password Salah!")
+
+    if count ==3:
+     break
+
+
+# menghitung diskon belanja
+
+total_belanja = 150000  # Total belanja dalam Rupiah
+diskon_persen = 10      # Persentase diskon (misalnya 10% = 10)
+
+# Hitung jumlah diskon
+jumlah_diskon = (diskon_persen / 100) * total_belanja
+
+# Hitung harga setelah diskon
+harga_setelah_diskon = total_belanja - jumlah_diskon
+
+print(f"Total belanja: Rp {total_belanja}")
+print(f"Diskon ({diskon_persen}%): Rp {jumlah_diskon}")
+print(f"Harga setelah diskon: Rp {harga_setelah_diskon}")
+
+
+total = 350000
+is_member = True
+pakai_kupon = True
+
+if pakai_kupon:
+diskon = 0.20
+elif is_member and total >=
+300_000:
+diskon = 0.10
+else:
+diskon = 0.0
+
+bayar = total * (1 - diskon)
+print(bayar)
+
+
+bilangan = 10
+ 
+  if (bilangan % 2) == 1:
+      print("Bil Ganjil")
+      bilangan = bilangan**2
+      print (bilangan)
+ 
+  elif (bilangan % 2) == 0:
+      print("Bil Genap")
+ 
+  else:
+    print("Tidak termasuk bilangan")
